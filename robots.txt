@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://sharpsites-demo.github.io/my-denntiist-dental-clinic-demo/sitemap.xml
