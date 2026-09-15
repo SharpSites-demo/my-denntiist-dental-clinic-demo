@@ -1,0 +1,12 @@
+name: Publish reviewed My Denntiist redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 82dbe7a80ef5de19721e65f88f9b06322a11f316ac535fd5b6075dd5273094ca
